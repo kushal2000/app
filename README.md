@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](LICENSE)
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
-Pokedex app built with Flutter
+Robotix app based on Pokedex App
 
 ## Download
 
@@ -13,15 +13,15 @@ Go to the [releases page](https://github.com/scitbiz/flutter_pokedex/releases) t
 
 ## App preview
 
-![Home](screenshots/home.png "Home")
-![Pokedex](screenshots/pokedex.png "Pokedex")
-![Pokedex FAB](screenshots/pokedex-fab.png "Pokedex FAB")
-![Pokedex Search](screenshots/pokedex-fab-search.png "Pokedex Search")
-![Pokedex Generation](screenshots/pokedex-fab-generation.png "Pokedex Generation")
-![Pokemon Info - About](screenshots/pokemon-info-about.png "Pokemon Info - About")
+![Home](screenshots/home.jpeg "Home")
+![News Screen](screenshots/Screen_2.jpeg "News Screen")
+![Home Screen](screenshots/Screen_3.jpeg "Home Screen")
+![Login Screen 1](screenshots/Login_screen_1.png "Login Screen 1")
+![Login Screen 2](screenshots/Login_screen_2.png "Login Screen 2")
+<!-- ![Pokemon Info - About](screenshots/pokemon-info-about.png "Pokemon Info - About")
 ![Pokemon Info - Base Stats](screenshots/pokemon-info-base-stats.png "Pokemon Info - Base Stats")
 ![Pokemon Info - Evolution](screenshots/pokemon-info-evolution.png "Pokemon Info - Evolution")
-![Pokemon Info - About (Expanded)](screenshots/pokemon-info-about-expanded.png "Pokemon Info - About (Expanded)")
+![Pokemon Info - About (Expanded)](screenshots/pokemon-info-about-expanded.png "Pokemon Info - About (Expanded)") -->
 
 ## Installation
 
@@ -30,28 +30,6 @@ Go to the [releases page](https://github.com/scitbiz/flutter_pokedex/releases) t
 - Open this project folder with Terminal/CMD and run `flutter packages get`
 
 - Run `flutter run` to build and run the debug app on your emulator/phone
-
-## Todos
-
-- [x] Home
-- [x] Home - Apply Sliver effect in home screen
-- [x] Pokedex
-- [x] Pokedex - FAB
-- [x] Pokedex - Add FAB animation
-- [ ] Pokedex - Add grid loading animation
-- [x] Pokedex - Add more Pokemons by [balvinderz](https://github.com/balvinderz)
-- [ ] Pokedex - Add load more
-- [x] Pokemon Info
-- [x] Pokemon Info - About
-- [x] Pokemon Info - Base Stats
-- [x] Pokemon Info - Evolution
-- [ ] Pokemon Info - Moves (no design)
-- [x] Pokemon Info - Make tab area expandable
-- [x] Pokemon Info - Add animations
-- [x] Pokemon Info - Add more Pokemons by [balvinderz](https://github.com/balvinderz)
-- [ ] Pokemon Info - Add missing data in About tab
-- [x] Pokemon Info - Add Base Stats data by [balvinderz](https://github.com/balvinderz)
-- [x] Pokemon Info - Add Evolution data by [balvinderz](https://github.com/balvinderz)
 
 ## Thanks
 
