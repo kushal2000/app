@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'widgets/login_page.dart';
-import 'widgets/home_page.dart';
+import 'package:pokedex/screens/home/home.dart';
 
 class Loginscreen extends StatelessWidget {
   final routes = <String, WidgetBuilder>{
     LoginPage.tag: (context) => LoginPage(),
-    HomePage.tag: (context) => HomePage(),
+    Home.tag: (context) => Home(),
   };
 
   @override

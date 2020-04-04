@@ -8,6 +8,7 @@ import 'widgets/search_bar.dart';
 
 class Home extends StatefulWidget {
   static const cardHeightFraction = 0.7;
+  static String tag = 'home';
 
   @override
   _HomeState createState() => _HomeState();
