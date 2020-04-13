@@ -148,14 +148,14 @@ class _PokedexState extends State<Pokedex> with SingleTickerProviderStateMixin {
               _showGenerationModal();
             },
           ),
-          // FabItem(
-          //   "Search",
-          //   Icons.search,
-          //   onPress: () {
-          //     _animationController.reverse();
-          //     _showSearchModal();
-          //   },
-          // ),
+          FabItem(
+            "Search",
+            Icons.search,
+            onPress: () {
+              _animationController.reverse();
+              _showSearchModal();
+            },
+          ),
         ],
         animation: _animation,
         onPress: _animationController.isCompleted

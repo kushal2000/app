@@ -10,6 +10,18 @@ import 'screens/pokemon_info/pokemon_info.dart';
 import 'widgets/fade_page_route.dart';
 
 void main() => runApp(
+      // // Create a storage reference from our app
+      // StorageReference storageRef = storage.getReference();
+
+      // // Create a reference with an initial file path and name
+      // // StorageReference pathReference = storageRef.child("images/stars.jpg");
+
+      // // Create a reference to a file from a Google Cloud Storage URI
+      // StorageReference gsReference = storage.getReferenceFromUrl("gs://robotix-app.appspot.com/kraig101.md");
+
+      // // Create a reference from an HTTPS URL
+      // // Note that in the URL, characters are URL escaped!
+      // // StorageReference httpsReference = storage.getReferenceFromUrl("https://firebasestorage.googleapis.com/b/bucket/o/images%20stars.jpg");
       MultiProvider(
         providers: [
           ChangeNotifierProvider(builder: (context) => PokemonModel()),

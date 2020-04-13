@@ -28,7 +28,7 @@ class SearchBar extends StatelessWidget {
           Expanded(
             child: TextFormField(
               decoration: InputDecoration(
-                hintText: "Search Autonomous Robotics, Servo Motors, etc",
+                hintText: "Search ms!",
                 hintStyle: TextStyle(
                   fontSize: 14,
                   color: AppColors.grey,
